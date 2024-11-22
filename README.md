@@ -1,6 +1,6 @@
 ## School Management System
 
-A simple school management system built with Laravel 11 and Tailwind CSS. The system allows you to manage students, teachers, subjects, and courses.
+A simple school management system built with Reactjs, inertiaJs, Laravel 11 and Tailwind CSS in-short as(RILT). The system allows you to manage students, teachers, subjects, and courses.
 
 ### Features
 
@@ -24,12 +24,3 @@ A simple school management system built with Laravel 11 and Tailwind CSS. The sy
 8.  Start the server with `php artisan serve`
 
 ### Screenshots
-
-![](https://i.imgur.com/MKjwq3R.png)
-
-![](https://i.imgur.com/0Ud0CZA.png)
-
-![](https://i.imgur.com/0f0lX4a.png)
-
-![](https://i.imgur.com/0Ud0CZA.png)
-/******  a3e09851-e6ab-499b-aecf-02495c54144b  *******/
