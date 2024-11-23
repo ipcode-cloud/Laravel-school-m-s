@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .th{
+        @apply border-r px-16 font-bold 
+    }
+    .td{
+        @apply  px-16 py-4 font-mono text-slate-400 hover:cursor-pointer
+    }
+    .h2{
+        @apply text-xl font-semibold leading-tight text-gray-800 dark:text-gray-200
+    }
+    .card{
+        @apply flex justify-around items-center border border-slate-400 hover:border-4 transition-all cursor-pointer  text-white w-[250px] h-[150px] rounded-md
+    }
+}
