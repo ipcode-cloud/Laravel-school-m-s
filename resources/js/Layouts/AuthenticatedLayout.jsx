@@ -34,12 +34,6 @@ export default function AuthenticatedLayout({ header, children }) {
                                     href={route('marks')}
                                     active={route().current('marks')}
                                 >
-                                    Marks
-                                </NavLink>
-                                <NavLink
-                                    href={route('marks')}
-                                    active={route().current('marks')}
-                                >
                                     Administrative
                                 </NavLink>
                                 <NavLink
@@ -52,12 +46,6 @@ export default function AuthenticatedLayout({ header, children }) {
                                     href={route('marks')}
                                     active={route().current('marks')}
                                 >
-                                    Settings
-                                </NavLink>
-                                <NavLink
-                                    href={route('marks')}
-                                    active={route().current('marks')}
-                                >
                                     Users
                                 </NavLink>
                                 <NavLink
@@ -65,6 +53,12 @@ export default function AuthenticatedLayout({ header, children }) {
                                     active={route().current('marks')}
                                 >
                                     Students
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Settings
                                 </NavLink>
                             </div>
                         </div>
