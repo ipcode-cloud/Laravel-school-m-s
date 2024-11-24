@@ -1,5 +1,6 @@
 import ApplicationLogo from '@/Components/ApplicationLogo';
 import Dropdown from '@/Components/Dropdown';
+import Footer from '@/Components/Footer';
 import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link, usePage } from '@inertiajs/react';
@@ -28,6 +29,42 @@ export default function AuthenticatedLayout({ header, children }) {
                                     active={route().current('dashboard')}
                                 >
                                     Dashboard
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Marks
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Administrative
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Exams
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Settings
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Users
+                                </NavLink>
+                                <NavLink
+                                    href={route('marks')}
+                                    active={route().current('marks')}
+                                >
+                                    Students
                                 </NavLink>
                             </div>
                         </div>
@@ -170,6 +207,8 @@ export default function AuthenticatedLayout({ header, children }) {
             )}
 
             <main>{children}</main>
+
+            <Footer />
         </div>
     );
 }
